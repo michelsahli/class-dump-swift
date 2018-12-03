@@ -23,10 +23,6 @@ struct SDClass {
 
 static bool isOutputSimplified = false;
 static bool isOutputCompact = false;
-<<<<<<< HEAD
-=======
-static bool isOutputRaw = false;
->>>>>>> f1b0bccfc188a9a67690c8536374f965c198a037
 static std::stringstream output;
 
 void createSwiftHeaderFiles(std::vector<SDClass*> classes);
