@@ -28,3 +28,8 @@ The options `-compact` and `-simplified` from the official command tool are impl
 
 `swiftd [-compact|-simplified] swift_binary_file`
 
+## Alternative
+
+A faster alternative could be to use `nm` to get the Swift symbols. But they won't be grouped per class.
+
+`nm swift_binary_file | xcrun swift-demangle`
